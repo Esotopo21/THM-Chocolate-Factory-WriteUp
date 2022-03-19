@@ -7,10 +7,15 @@ Write up for https://tryhackme.com/room/chocolatefactory (Visit https://tryhackm
 For this CTF I've set the record <BOX-IP> wonka in /etc/hosts.
   
 By running syn scan (default mode when run as root) with nmap (`nmap -A wonka`) I found:
+  
   FTP Server on port 21 allowing Anonymous login
+  
   SSH Open port on port 22
+  
   HTTP server on port 80
+  
   Several open ports with the same hint ('Look somewhere else')
+  
   A port with indicating a downloadable executable
   
  # Question #1
