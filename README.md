@@ -60,7 +60,7 @@ wrote extracted data to "b64.txt".
 It is an base64 encoded file so I decoded it (`base64 -d b64.txt > b64dec.txt`) to reveal what is seems to be a /etc/shadow file
 John (`john -w=/usr/bin/wordlist/rockyou.txt b64dec.txt`) was able to crack charlie's password
 
-#Question #3
+# Question #3
   
 The password found is need to login in the HTTP server on port 80 which leads to a webshell (I tried to use it for ssh into the server but with no success)
 
